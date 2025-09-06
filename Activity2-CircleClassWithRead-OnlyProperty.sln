@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activity2-CircleClassWithRead-OnlyProperty", "Activity2-CircleClassWithRead-OnlyProperty\Activity2-CircleClassWithRead-OnlyProperty.csproj", "{4C19D6AE-B1D9-47FE-AF46-4D11F0F80D7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C19D6AE-B1D9-47FE-AF46-4D11F0F80D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C19D6AE-B1D9-47FE-AF46-4D11F0F80D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C19D6AE-B1D9-47FE-AF46-4D11F0F80D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C19D6AE-B1D9-47FE-AF46-4D11F0F80D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14454975-744B-40E1-933D-BEAD97B71E89}
+	EndGlobalSection
+EndGlobal
