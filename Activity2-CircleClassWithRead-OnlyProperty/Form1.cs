@@ -16,5 +16,12 @@ namespace Activity2_CircleClassWithRead_OnlyProperty
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Circle circle = new Circle(Double.Parse(numericUpDownRadius.Text));
+
+            MessageBox.Show("Radius: " + circle.Radius + "\nArea: " + circle.Area);
+        }
     }
 }
