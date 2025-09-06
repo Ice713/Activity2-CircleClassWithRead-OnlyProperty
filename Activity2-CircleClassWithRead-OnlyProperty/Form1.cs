@@ -19,9 +19,17 @@ namespace Activity2_CircleClassWithRead_OnlyProperty
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Circle circle = new Circle(Double.Parse(numericUpDownRadius.Text));
+            try 
+            {
+                Circle circle = new Circle(Double.Parse(numericUpDownRadius.Text));
 
-            MessageBox.Show("Radius: " + circle.Radius + "\nArea: " + circle.Area);
+                MessageBox.Show($"Radius: {circle.Radius}\nArea: {circle.Area:F2}");
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Please enter a valid number for the radius.");
+                return;
+            }            
         }
     }
 }

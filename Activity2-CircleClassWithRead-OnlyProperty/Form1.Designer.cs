@@ -48,6 +48,12 @@
             // 
             // numericUpDownRadius
             // 
+            this.numericUpDownRadius.DecimalPlaces = 2;
+            this.numericUpDownRadius.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
             this.numericUpDownRadius.Location = new System.Drawing.Point(330, 84);
             this.numericUpDownRadius.Maximum = new decimal(new int[] {
             10000,
